@@ -1,1 +1,0 @@
-# AASTU-DB-Project-Group-5
