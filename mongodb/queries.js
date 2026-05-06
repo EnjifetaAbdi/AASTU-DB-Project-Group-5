@@ -653,3 +653,13 @@ printjson(
 
 
 
+//  SECTION 7 — Number of records in each collections
+
+print("  SECTION 8 — VERIFICATION SUMMARY");
+print(`  Branches:     ${db.branches.countDocuments()}`);
+print(`  Customers:    ${db.customers.countDocuments()}`);
+print(`  Accounts:     ${db.accounts.countDocuments()}`);
+print(`  Loans:        ${db.loans.countDocuments()}`);
+print(`  Transactions: ${db.transactions.countDocuments()}`);
+print(`  Employees:    ${db.employees.countDocuments()}`);
+print("\n✅  Gebar Commercial Bank MongoDB setup complete!");
