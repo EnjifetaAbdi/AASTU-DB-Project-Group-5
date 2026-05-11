@@ -26,11 +26,11 @@ last_name VARCHAR(50) NOT NULL,
 date_of_birth DATE,
 gender VARCHAR(10),
 address VARCHAR(200),
+registration_date DATE,
 phone_number varchar(100),
 email varchar(100),
 national_id VARCHAR(20) UNIQUE,
 branch_id VARCHAR(10),
-registration_date DATE,
 FOREIGN KEY (branch_id) REFERENCES Branch(branch_id)
 );
 
