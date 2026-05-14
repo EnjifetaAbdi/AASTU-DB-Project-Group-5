@@ -5,6 +5,7 @@ VALUES
 ('B001','Main Branch','Addis Ababa','0911000001','E001'),
 ('B002','Bole Branch','Addis Ababa','0911000002','E003'),
 ('B003','Hara Branch','Adama','0911000003','E006');
+('B004','Arada Branch','Addis Ababa','0911000004','E004');
 INSERT INTO Customer
 VALUES
 ('C001','Abebe','Bekele','M','0912000001','Addis Ababa','2026-01-05','B001','1965-11-20','abebe.bekele@example.com','7548658496973896'),
@@ -26,6 +27,8 @@ VALUES
 ('C009','Rahel','Solomon','F','0912000009','Addis Ababa','2026-01-19','B002','1990-04-15','rahel.solomon@example.com','7241739168082662'),
 
 ('C010','Nati','Yared','M','0912000010','Adama','2026-01-20','B003','1985-06-22','nati.yared@example.com','4161137359341012');
+
+('C011','selam','kebede','F','0912000011','Addis Ababa','2026-01-21','B004','1992-08-14','selam.kebede@example.com','198967890123456');
 INSERT INTO Account
 VALUES
 ('A1001','C001','B001','Savings',5000,'Active','2026-01-11'),
@@ -46,4 +49,5 @@ VALUES
 
 ('A1009','C009','B002','Savings',6000,'Closed','2026-01-30'),
 
-('A1010','C010','B003','Current',10000,'Active','2026-02-10');
+('A1010','C010','B003','Current',10000,'Active','2026-02-10'),
+('A1011','C011','B004','Savings',5000,'Active','2026-02-15');
