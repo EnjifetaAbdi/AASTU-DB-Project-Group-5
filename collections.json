@@ -28,6 +28,13 @@
       "address":      "Megenagna Square, Addis Ababa",
       "phone_number": "+251 115 345 678",
       "manager_id":   "EMP-010"
+    },
+    {
+      "branch_id":    "BR-004",
+      "branch_name":  "Arada Branch",
+      "address":      "Arada Sub-city, Addis Ababa",
+      "phone_number": "+251 115 456 789",
+      "manager_id":   "EMP-004"
     }
   ],
 
